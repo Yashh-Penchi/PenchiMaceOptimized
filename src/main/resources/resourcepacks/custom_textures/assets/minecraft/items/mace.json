@@ -1,0 +1,38 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:enchantments",
+    "value": [
+      {
+        "enchantments": [
+          "minecraft:breach"
+        ]
+      }
+    ],
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace_breach"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:enchantments",
+    "value": [
+      {
+        "enchantments": [
+          "minecraft:density"
+        ]
+      }
+    ],
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace_density"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace"
+    }
+    }
+  }
+}

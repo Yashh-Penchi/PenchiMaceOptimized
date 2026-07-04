@@ -1,0 +1,25 @@
+{
+    "pack": {
+        "pack_format": 69,
+        "min_format": 69,
+        "max_format": 75,
+        "description": [
+          {"text": "All Maces Custom Textures", "color": "#7f09f5"},
+          "\n",
+          {"text": " by ", "color": "gray"},
+          {"text": "Y", "color": "#005272"},
+          {"text": "a", "color": "#005f84"},
+          {"text": "s", "color": "#00668e"},
+          {"text": "h", "color": "#01729e"},
+          {"text": "h", "color": "#0080b2"},
+          {"text": " ", "color": "#0086bb"},
+          {"text": "P", "color": "#0096d2"},
+          {"text": "e", "color": "#00abee"},
+          {"text": "n", "color": "#09b9ff"},
+          {"text": "c", "color": "#1abeff"},
+          {"text": "h", "color": "#34c5ff"},
+          {"text": "i", "color": "#6dd6ff"},
+          {"text":" §f\uDBA3\uDF26"}
+        ]
+    }
+}

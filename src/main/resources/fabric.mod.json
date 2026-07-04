@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "maceoptimized",
+  "version": "${version}",
+  "name": "PenchiMaceOptimized +",
+  "description": "§6§lPenchi MACE §eOptimized \n§fThe most advanced Mace PvP optimization mod for Minecraft §r\nBy Yashh Penchi§r",
+  "authors": ["Yashh Penchi"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/penchi-maceoptimized",
+    "sources": "https://github.com/Yashh-Penchi"
+  },
+  "license": "CC-BY-NC-ND-4.0",
+  "icon": "assets/maceoptimized/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.penchi.maceoptimized.MaceOptimizedClient"],
+    "modmenu": ["com.penchi.maceoptimized.config.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": "*",
+    "modmenu": "*"
+  }
+}
